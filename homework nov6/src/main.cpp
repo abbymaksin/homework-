@@ -30,5 +30,10 @@ void loop() {
 
 // put function definitions here:
 String myFunction(int N, String A) {
-  return A;
+  String histring="" ;
+  for (int i=0; i<N;i++){
+    histring=histring+A;
+  }
+  return histring;
+
 }
