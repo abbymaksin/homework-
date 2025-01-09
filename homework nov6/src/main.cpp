@@ -30,5 +30,9 @@ void loop() {
 
 // put function definitions here:
 String myFunction(int N, String A) {
-  return A;
-}
+  String concat="";
+  for(int i=0; i<N; i++){
+   concat = concat +A;
+  }
+  return  concat;
+  }
